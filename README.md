@@ -1,5 +1,7 @@
 # Intos
 
+![Intos type specimen](preview.png)
+
 Fonts that are metric-compatible with Microsoft's Aptos family: text set in Aptos keeps its
 line breaks and pagination when it is rendered with Intos. Only numbers are taken from Aptos
 (advance widths, sidebearings, vertical metrics, kerning values); the outlines are derived from
