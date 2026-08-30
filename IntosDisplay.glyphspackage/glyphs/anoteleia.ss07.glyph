@@ -1,0 +1,70 @@
+{
+glyphname = anoteleia.ss07;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(143,1010,l),
+(361,1010,l),
+(361,794,l),
+(143,794,l)
+);
+}
+);
+vertWidth = 0;
+width = 504;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(143,1010,l),
+(443,1010,l),
+(443,723,l),
+(143,723,l)
+);
+}
+);
+vertWidth = 0;
+width = 586;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,1010,l),
+(493,1010,l),
+(448,795,l),
+(230,795,l)
+);
+}
+);
+vertWidth = 0;
+width = 509;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(277,1010,l),
+(578,1010,l),
+(517,722,l),
+(216,722,l)
+);
+}
+);
+vertWidth = 0;
+width = 594;
+}
+);
+unicode = 58025;
+}

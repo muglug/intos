@@ -1,0 +1,206 @@
+{
+glyphname = i.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = cross;
+pos = (307,506);
+},
+{
+name = ogonek;
+pos = (571,0);
+},
+{
+name = right;
+pos = (584,0);
+},
+{
+name = tonos;
+pos = (51,974);
+},
+{
+name = top;
+pos = (308,974);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,140,l),
+(222,140,l),
+(222,834,l),
+(44,834,l),
+(44,974,l),
+(571,974,l),
+(571,834,l),
+(394,834,l),
+(394,140,l),
+(571,140,l),
+(571,0,l),
+(44,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 615;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (341,0);
+},
+{
+name = cross;
+pos = (339,515);
+},
+{
+name = ogonek;
+pos = (655,0);
+},
+{
+name = right;
+pos = (672,0);
+},
+{
+name = tonos;
+pos = (24,976);
+},
+{
+name = top;
+pos = (341,976);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(26,216,l),
+(203,216,l),
+(203,760,l),
+(26,760,l),
+(26,976,l),
+(655,976,l),
+(655,760,l),
+(478,760,l),
+(478,216,l),
+(655,216,l),
+(655,0,l),
+(26,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 681;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = cross;
+pos = (330,506);
+},
+{
+name = ogonek;
+pos = (487,0);
+},
+{
+name = right;
+pos = (500,0);
+},
+{
+name = tonos;
+pos = (174,974);
+},
+{
+name = top;
+pos = (431,974);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,140,l),
+(168,140,l),
+(315,834,l),
+(137,834,l),
+(166,974,l),
+(694,974,l),
+(664,834,l),
+(486,834,l),
+(339,140,l),
+(516,140,l),
+(487,0,l),
+(-40,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 615;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (257,0);
+},
+{
+name = cross;
+pos = (365,515);
+},
+{
+name = ogonek;
+pos = (572,0);
+},
+{
+name = right;
+pos = (589,0);
+},
+{
+name = tonos;
+pos = (148,976);
+},
+{
+name = top;
+pos = (464,976);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-12,217,l),
+(165,217,l),
+(280,759,l),
+(103,759,l),
+(149,976,l),
+(780,976,l),
+(734,759,l),
+(557,759,l),
+(441,217,l),
+(618,217,l),
+(572,0,l),
+(-59,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 683;
+}
+);
+unicode = 618;
+}

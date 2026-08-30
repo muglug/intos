@@ -1,0 +1,66 @@
+{
+glyphname = saltillo.smcp;
+lastChange = "2026-08-29 03:21:13 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = top;
+pos = (290,1437);
+}
+);
+layerId = "B3C03337-0042-4F25-8FF2-9D0C5D4570D2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,220,l),
+(388,1010,l),
+(189,1010,l),
+(231,220,l)
+);
+}
+);
+vertWidth = 0;
+width = 565;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (306,0);
+},
+{
+name = top;
+pos = (307,1437);
+}
+);
+layerId = "FB5CCEEC-BEBD-4320-9515-8D0B172309DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(387,226,l),
+(447,1010,l),
+(162,1010,l),
+(219,226,l)
+);
+}
+);
+vertWidth = 0;
+width = 599;
+},
+{
+layerId = "2990A4D5-928B-40A5-995D-FFC6079ED035";
+width = 600;
+},
+{
+layerId = "F12CCC5E-301F-4159-A375-6B1E82E1D295";
+width = 600;
+}
+);
+}

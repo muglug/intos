@@ -1,0 +1,70 @@
+{
+glyphname = period.tf.ss07;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,216,l),
+(358,216,l),
+(358,0,l),
+(139,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 497;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,287,l),
+(399,287,l),
+(399,0,l),
+(98,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 497;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,215,l),
+(320,215,l),
+(274,0,l),
+(56,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 497;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,288,l),
+(377,288,l),
+(315,0,l),
+(14,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 497;
+}
+);
+unicode = 58037;
+}

@@ -1,0 +1,190 @@
+{
+glyphname = Eturn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (549,0);
+},
+{
+name = cedilla;
+pos = (551,0);
+},
+{
+name = ogonek;
+pos = (98,1346);
+},
+{
+name = tonos;
+pos = (960,0);
+},
+{
+name = top;
+pos = (562,1346);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(957,0,l),
+(106,0,l),
+(106,158,l),
+(777,158,l),
+(777,588,l),
+(152,588,l),
+(152,745,l),
+(777,745,l),
+(777,1188,l),
+(98,1188,l),
+(98,1346,l),
+(957,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 1107;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (558,0);
+},
+{
+name = cedilla;
+pos = (560,0);
+},
+{
+name = ogonek;
+pos = (88,1346);
+},
+{
+name = tonos;
+pos = (996,0);
+},
+{
+name = top;
+pos = (563,1346);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(996,0,l),
+(90,0,l),
+(90,233,l),
+(715,233,l),
+(715,552,l),
+(137,552,l),
+(137,780,l),
+(715,780,l),
+(715,1114,l),
+(88,1114,l),
+(88,1346,l),
+(996,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 1125;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (395,0);
+},
+{
+name = cedilla;
+pos = (397,0);
+},
+{
+name = ogonek;
+pos = (272,1346);
+},
+{
+name = tonos;
+pos = (856,0);
+},
+{
+name = top;
+pos = (694,1346);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(852,0,l),
+(-6,0,l),
+(27,157,l),
+(705,157,l),
+(801,588,l),
+(165,588,l),
+(198,745,l),
+(836,745,l),
+(926,1189,l),
+(239,1189,l),
+(272,1346,l),
+(1139,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 1105;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (425,0);
+},
+{
+name = cedilla;
+pos = (427,0);
+},
+{
+name = ogonek;
+pos = (269,1346);
+},
+{
+name = tonos;
+pos = (888,0);
+},
+{
+name = top;
+pos = (717,1346);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(888,0,l),
+(-16,0,l),
+(33,233,l),
+(656,233,l),
+(724,552,l),
+(149,552,l),
+(198,780,l),
+(772,780,l),
+(843,1113,l),
+(220,1113,l),
+(269,1346,l),
+(1174,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 1124;
+}
+);
+unicode = 398;
+}

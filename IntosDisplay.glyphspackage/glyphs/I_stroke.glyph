@@ -1,0 +1,206 @@
+{
+glyphname = Istroke;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = cross;
+pos = (304,695);
+},
+{
+name = ogonek;
+pos = (394,0);
+},
+{
+name = right;
+pos = (409,0);
+},
+{
+name = tonos;
+pos = (214,1346);
+},
+{
+name = top;
+pos = (304,1346);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(394,753,l),
+(598,753,l),
+(598,638,l),
+(394,638,l),
+(394,0,l),
+(214,0,l),
+(214,638,l),
+(9,638,l),
+(9,753,l),
+(214,753,l),
+(214,1346,l),
+(394,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 607;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (326,0);
+},
+{
+name = cross;
+pos = (326,704);
+},
+{
+name = ogonek;
+pos = (467,0);
+},
+{
+name = right;
+pos = (487,0);
+},
+{
+name = tonos;
+pos = (186,1346);
+},
+{
+name = top;
+pos = (328,1346);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(467,757,l),
+(652,757,l),
+(652,651,l),
+(467,651,l),
+(467,0,l),
+(186,0,l),
+(186,651,l),
+(-1,651,l),
+(-1,757,l),
+(186,757,l),
+(186,1346,l),
+(467,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 654;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (217,0);
+},
+{
+name = cross;
+pos = (364,695);
+},
+{
+name = ogonek;
+pos = (307,0);
+},
+{
+name = right;
+pos = (321,0);
+},
+{
+name = tonos;
+pos = (413,1346);
+},
+{
+name = top;
+pos = (503,1346);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(467,753,l),
+(671,753,l),
+(646,637,l),
+(442,637,l),
+(307,0,l),
+(127,0,l),
+(262,637,l),
+(58,637,l),
+(82,753,l),
+(287,753,l),
+(413,1346,l),
+(593,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 603;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = cross;
+pos = (389,704);
+},
+{
+name = ogonek;
+pos = (382,0);
+},
+{
+name = right;
+pos = (401,0);
+},
+{
+name = tonos;
+pos = (386,1346);
+},
+{
+name = top;
+pos = (528,1346);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(543,758,l),
+(728,758,l),
+(705,651,l),
+(520,651,l),
+(382,0,l),
+(100,0,l),
+(239,651,l),
+(51,651,l),
+(74,758,l),
+(261,758,l),
+(386,1346,l),
+(668,1346,l)
+);
+}
+);
+vertWidth = 0;
+width = 651;
+}
+);
+unicode = 407;
+}

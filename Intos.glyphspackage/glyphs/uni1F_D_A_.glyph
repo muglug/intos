@@ -1,0 +1,218 @@
+{
+glyphname = uni1FDA;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (422,0);
+},
+{
+name = cross;
+pos = (422,695);
+},
+{
+name = ogonek;
+pos = (512,0);
+},
+{
+name = right;
+pos = (527,0);
+},
+{
+name = tonos;
+pos = (332,1346);
+},
+{
+name = top;
+pos = (423,1346);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(512,0,l),
+(332,0,l),
+(332,1141,l),
+(277,1141,l),
+(183,1408,l),
+(363,1408,l),
+(370,1346,l),
+(512,1346,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(370,1346,l),
+(332,1346,l),
+(332,1141,l),
+(393,1141,l)
+);
+}
+);
+vertWidth = 0;
+width = 672;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (560,0);
+},
+{
+name = cross;
+pos = (560,704);
+},
+{
+name = ogonek;
+pos = (701,0);
+},
+{
+name = right;
+pos = (721,0);
+},
+{
+name = tonos;
+pos = (420,1346);
+},
+{
+name = top;
+pos = (562,1346);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(701,0,l),
+(420,0,l),
+(420,1129,l),
+(277,1129,l),
+(164,1411,l),
+(411,1411,l),
+(420,1325,l),
+(420,1346,l),
+(701,1346,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(420,1325,l),
+(420,1129,l),
+(441,1129,l)
+);
+}
+);
+vertWidth = 0;
+width = 821;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (512,0);
+},
+{
+name = cross;
+pos = (659,695);
+},
+{
+name = ogonek;
+pos = (602,0);
+},
+{
+name = right;
+pos = (616,0);
+},
+{
+name = tonos;
+pos = (708,1346);
+},
+{
+name = top;
+pos = (798,1346);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(602,0,l),
+(422,0,l),
+(708,1346,l),
+(888,1346,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(429,1141,l),
+(393,1408,l),
+(572,1408,l),
+(546,1141,l)
+);
+}
+);
+vertWidth = 0;
+width = 838;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (516,0);
+},
+{
+name = cross;
+pos = (665,704);
+},
+{
+name = ogonek;
+pos = (658,0);
+},
+{
+name = right;
+pos = (677,0);
+},
+{
+name = tonos;
+pos = (663,1346);
+},
+{
+name = top;
+pos = (804,1346);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(658,0,l),
+(376,0,l),
+(663,1346,l),
+(944,1346,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(347,1129,l),
+(294,1411,l),
+(541,1411,l),
+(511,1129,l)
+);
+}
+);
+vertWidth = 0;
+width = 854;
+}
+);
+unicode = 8154;
+}

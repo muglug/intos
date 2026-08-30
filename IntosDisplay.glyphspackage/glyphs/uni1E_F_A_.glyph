@@ -1,0 +1,182 @@
+{
+glyphname = uni1EFA;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (909,0);
+},
+{
+name = cross;
+pos = (710,673);
+},
+{
+name = dot;
+pos = (902,723);
+},
+{
+name = raccent;
+pos = (916,1346);
+},
+{
+name = top;
+pos = (600,1346);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,1346,l),
+(325,1346,l),
+(325,158,l),
+(510,158,l),
+(510,1346,l),
+(690,1346,l),
+(690,158,l),
+(1310,158,l),
+(1310,0,l),
+(145,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 1390;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (1012,0);
+},
+{
+name = cross;
+pos = (803,673);
+},
+{
+name = dot;
+pos = (1011,758);
+},
+{
+name = raccent;
+pos = (1066,1346);
+},
+{
+name = top;
+pos = (720,1346);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,1346,l),
+(432,1346,l),
+(432,233,l),
+(582,233,l),
+(582,1346,l),
+(863,1346,l),
+(863,233,l),
+(1441,233,l),
+(1441,0,l),
+(151,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 1662;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (829,0);
+},
+{
+name = cross;
+pos = (772,673);
+},
+{
+name = dot;
+pos = (975,723);
+},
+{
+name = raccent;
+pos = (1122,1346);
+},
+{
+name = top;
+pos = (806,1346);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,1346,l),
+(531,1346,l),
+(278,158,l),
+(463,158,l),
+(716,1346,l),
+(896,1346,l),
+(643,158,l),
+(1263,158,l),
+(1230,0,l),
+(65,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 1393;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (932,0);
+},
+{
+name = cross;
+pos = (866,673);
+},
+{
+name = dot;
+pos = (1093,759);
+},
+{
+name = raccent;
+pos = (1274,1346);
+},
+{
+name = top;
+pos = (928,1346);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(357,1346,l),
+(639,1346,l),
+(402,233,l),
+(552,233,l),
+(789,1346,l),
+(1071,1346,l),
+(834,233,l),
+(1412,233,l),
+(1362,0,l),
+(71,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 1673;
+}
+);
+unicode = 7930;
+}

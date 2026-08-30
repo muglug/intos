@@ -1,0 +1,208 @@
+{
+glyphname = "Te-cy";
+kernLeft = Kabashkircyrillic;
+kernRight = "Te-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (491,0);
+},
+{
+name = bottomr;
+pos = (574,0);
+},
+{
+name = cedilla;
+pos = (491,0);
+},
+{
+name = cross;
+pos = (491,686);
+},
+{
+name = cyrtic;
+pos = (574,0);
+},
+{
+name = right;
+pos = (532,0);
+},
+{
+name = top;
+pos = (491,1346);
+}
+);
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,1346,l),
+(962,1346,l),
+(962,1188,l),
+(581,1188,l),
+(581,0,l),
+(401,0,l),
+(401,1188,l),
+(18,1188,l)
+);
+}
+);
+vertWidth = 0;
+width = 980;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (518,0);
+},
+{
+name = bottomr;
+pos = (645,0);
+},
+{
+name = cedilla;
+pos = (519,0);
+},
+{
+name = cross;
+pos = (518,640);
+},
+{
+name = cyrtic;
+pos = (645,0);
+},
+{
+name = right;
+pos = (605,0);
+},
+{
+name = top;
+pos = (518,1346);
+}
+);
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,1346,l),
+(1017,1346,l),
+(1017,1114,l),
+(658,1114,l),
+(658,0,l),
+(377,0,l),
+(377,1114,l),
+(18,1114,l)
+);
+}
+);
+vertWidth = 0;
+width = 1035;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (389,0);
+},
+{
+name = bottomr;
+pos = (472,0);
+},
+{
+name = cedilla;
+pos = (390,0);
+},
+{
+name = cross;
+pos = (535,686);
+},
+{
+name = cyrtic;
+pos = (472,0);
+},
+{
+name = right;
+pos = (430,0);
+},
+{
+name = top;
+pos = (676,1346);
+}
+);
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,1346,l),
+(1146,1346,l),
+(1112,1189,l),
+(732,1189,l),
+(479,0,l),
+(299,0,l),
+(552,1189,l),
+(170,1189,l)
+);
+}
+);
+vertWidth = 0;
+width = 982;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (416,0);
+},
+{
+name = bottomr;
+pos = (543,0);
+},
+{
+name = cedilla;
+pos = (413,0);
+},
+{
+name = cross;
+pos = (552,639);
+},
+{
+name = cyrtic;
+pos = (543,0);
+},
+{
+name = right;
+pos = (503,0);
+},
+{
+name = top;
+pos = (702,1346);
+}
+);
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,1346,l),
+(1202,1346,l),
+(1152,1113,l),
+(794,1113,l),
+(557,0,l),
+(275,0,l),
+(512,1113,l),
+(153,1113,l)
+);
+}
+);
+vertWidth = 0;
+width = 1037;
+}
+);
+unicode = 1058;
+}

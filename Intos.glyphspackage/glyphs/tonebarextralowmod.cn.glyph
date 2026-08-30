@@ -1,0 +1,78 @@
+{
+glyphname = tonebarextralowmod.cn;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(553,0,l),
+(121,0,l),
+(121,155,l),
+(359,155,l),
+(359,1317,l),
+(553,1317,l)
+);
+}
+);
+vertWidth = 0;
+width = 675;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(626,0,l),
+(92,0,l),
+(92,219,l),
+(352,219,l),
+(352,1317,l),
+(626,1317,l)
+);
+}
+);
+vertWidth = 0;
+width = 716;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(470,0,l),
+(37,0,l),
+(70,155,l),
+(307,155,l),
+(555,1317,l),
+(749,1317,l)
+);
+}
+);
+vertWidth = 0;
+width = 675;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(543,0,l),
+(8,0,l),
+(54,220,l),
+(314,220,l),
+(548,1317,l),
+(822,1317,l)
+);
+}
+);
+vertWidth = 0;
+width = 716;
+}
+);
+unicode = 745;
+}

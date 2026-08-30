@@ -1,0 +1,75 @@
+{
+glyphname = clickdental;
+lastChange = "2026-08-29 03:21:13 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (409,0);
+},
+{
+name = center;
+pos = (408,738);
+},
+{
+name = top;
+pos = (409,1476);
+}
+);
+layerId = "B3C03337-0042-4F25-8FF2-9D0C5D4570D2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(477,0,l),
+(477,1476,l),
+(340,1476,l),
+(340,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 796;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (376,0);
+},
+{
+name = center;
+pos = (375,738);
+},
+{
+name = top;
+pos = (376,1476);
+}
+);
+layerId = "FB5CCEEC-BEBD-4320-9515-8D0B172309DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(470,0,l),
+(470,1476,l),
+(282,1476,l),
+(282,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 733;
+},
+{
+layerId = "2990A4D5-928B-40A5-995D-FFC6079ED035";
+width = 600;
+},
+{
+layerId = "F12CCC5E-301F-4159-A375-6B1E82E1D295";
+width = 600;
+}
+);
+unicode = 448;
+}
