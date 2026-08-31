@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (780,0);
+pos = (779,0);
 },
 {
 name = cyrtic;
@@ -22,7 +22,7 @@ shapes = (
 closed = 1;
 nodes = (
 (151,1346,l),
-(328,1346,l),
+(327,1346,l),
 (784,660,l),
 (1239,1346,l),
 (1416,1346,l),
@@ -45,7 +45,7 @@ width = 1567;
 anchors = (
 {
 name = bottom;
-pos = (813,0);
+pos = (812,0);
 },
 {
 name = cyrtic;
@@ -85,7 +85,7 @@ width = 1626;
 anchors = (
 {
 name = bottom;
-pos = (677,0);
+pos = (678,0);
 },
 {
 name = cyrtic;
@@ -101,8 +101,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(325,1303,l),
-(334,1346,l),
+(326,1303,l),
+(335,1346,l),
 (504,1346,l),
 (798,653,l),
 (1404,1346,l),
@@ -125,7 +125,7 @@ width = 1567;
 anchors = (
 {
 name = bottom;
-pos = (708,0);
+pos = (709,0);
 },
 {
 name = cyrtic;
@@ -156,7 +156,7 @@ nodes = (
 (706,405,o),
 (706,405,c),
 (509,937,l),
-(311,0,l),
+(310,0,l),
 (29,0,l)
 );
 }

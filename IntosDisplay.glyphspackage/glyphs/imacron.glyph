@@ -93,19 +93,19 @@ width = 492;
 anchors = (
 {
 name = bottom;
-pos = (120,0);
+pos = (122,0);
 },
 {
 name = cross;
-pos = (230,519);
+pos = (228,519);
 },
 {
 name = ogonek;
-pos = (202,0);
+pos = (206,0);
 },
 {
 name = top;
-pos = (407,1349);
+pos = (405,1349);
 }
 );
 layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
@@ -115,7 +115,7 @@ closed = 1;
 nodes = (
 (238,974,l),
 (409,974,l),
-(202,0,l),
+(206,0,l),
 (32,0,l)
 );
 },
@@ -140,7 +140,7 @@ pos = (146,0);
 },
 {
 name = cross;
-pos = (254,527);
+pos = (255,527);
 },
 {
 name = ogonek;
