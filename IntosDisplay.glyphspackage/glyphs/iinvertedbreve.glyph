@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (198,0);
+pos = (199,0);
 },
 {
 name = cross;
-pos = (198,519);
+pos = (199,519);
 },
 {
 name = ogonek;
@@ -25,10 +25,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(112,974,l),
+(113,974,l),
 (283,974,l),
 (283,0,l),
-(112,0,l)
+(113,0,l)
 );
 },
 {
@@ -62,11 +62,11 @@ width = 394;
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (225,0);
 },
 {
 name = cross;
-pos = (223,527);
+pos = (222,527);
 },
 {
 name = ogonek;
@@ -121,15 +121,15 @@ width = 447;
 anchors = (
 {
 name = bottom;
-pos = (121,0);
+pos = (115,0);
 },
 {
 name = cross;
-pos = (231,519);
+pos = (225,519);
 },
 {
 name = ogonek;
-pos = (205,0);
+pos = (201,0);
 },
 {
 name = top;
@@ -141,16 +141,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(240,974,l),
-(412,974,l),
-(205,0,l),
-(34,0,l)
+(239,974,l),
+(408,974,l),
+(201,0,l),
+(33,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(498,1425,o),
+(501,1425,o),
 (608,1352,o),
 (654,1228,o),
 (638,1152,q),
@@ -178,7 +178,7 @@ width = 410;
 anchors = (
 {
 name = bottom;
-pos = (143,0);
+pos = (142,0);
 },
 {
 name = cross;
@@ -186,7 +186,7 @@ pos = (251,527);
 },
 {
 name = ogonek;
-pos = (282,0);
+pos = (280,0);
 },
 {
 name = top;
@@ -198,10 +198,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(210,976,l),
-(488,976,l),
-(282,0,l),
-(3,0,l)
+(209,976,l),
+(487,976,l),
+(280,0,l),
+(2,0,l)
 );
 },
 {
