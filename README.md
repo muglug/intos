@@ -1,6 +1,8 @@
 # Intos
 
-A small typeface family designed to be metric-compatible with Microsoft's Aptos family, based on [Inter](https://github.com/rsms/inter) and [Gelasio](https://github.com/SorkinType/Gelasio).
+A small typeface family designed to be metric-compatible with Microsoft's Aptos family.
+
+Based on [Inter](https://github.com/rsms/inter) and [Gelasio](https://github.com/SorkinType/Gelasio), with a series of manual and programmatic alterations.
 
 ![Intos type specimen](preview.png)
 
