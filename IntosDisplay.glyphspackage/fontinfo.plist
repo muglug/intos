@@ -3883,6 +3883,7 @@ over = 0;
 }
 );
 name = Regular;
+visible = 1;
 },
 {
 axesValues = (
@@ -4095,6 +4096,7 @@ over = 0;
 }
 );
 name = Bold;
+visible = 1;
 },
 {
 axesValues = (

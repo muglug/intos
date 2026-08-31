@@ -89,7 +89,7 @@ width = 547;
 anchors = (
 {
 name = bottom;
-pos = (138,0);
+pos = (137,0);
 },
 {
 name = cross;
@@ -131,11 +131,11 @@ width = 481;
 anchors = (
 {
 name = bottom;
-pos = (169,0);
+pos = (168,0);
 },
 {
 name = cross;
-pos = (319,704);
+pos = (318,704);
 },
 {
 name = ogonek;
@@ -143,7 +143,7 @@ pos = (310,0);
 },
 {
 name = right;
-pos = (328,0);
+pos = (329,0);
 },
 {
 name = tonos;
@@ -160,7 +160,7 @@ shapes = (
 closed = 1;
 nodes = (
 (310,0,l),
-(30,0,l),
+(29,0,l),
 (316,1346,l),
 (596,1346,l)
 );
