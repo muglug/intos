@@ -13,11 +13,13 @@ Text set in Aptos keeps its line breaks and pagination when it is rendered with 
   outlines, with Aptos's kerning and the `ccmp`/`locl` features and mark anchors.
 - `IntosDisplay.glyphs` — **Intos Display**, the four Intos masters with the
   Aptos → Aptos Display change replayed on them programmatically
+- `IntosNarrow.glyphs` — **Intos Narrow**, likewise with the Aptos → Aptos Narrow change
+  (narrower advances and counters, raised x-height, Aptos Narrow's metrics and kerning)
 - `IntosSerif.glyphs` — **Intos Serif**, derived from [Gelasio](https://github.com/SorkinType/Gelasio):
   Gelasio's full glyph set (Latin, Cyrillic, small caps, figure styles) re-proportioned to
   Aptos Serif, with Gelasio's serifs squashed to Aptos Serif's depth and lengthened to its
   overhang, Aptos Serif's metrics and kerning.
-- `fonts/` — the built TTFs (Intos, Intos Display and Intos Serif).
+- `fonts/` — the built TTFs (Intos, Intos Display, Intos Narrow and Intos Serif).
 
 Edit in Glyphs 4 and export into `fonts/`.
 

@@ -1,0 +1,70 @@
+{
+glyphname = barmidlongcomb;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(27,413,l),
+(-1008,413,l),
+(-1008,561,l),
+(27,561,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-11,399,l),
+(-1074,399,l),
+(-1074,567,l),
+(-11,567,l)
+);
+}
+);
+vertWidth = 0;
+width = 3;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(38,413,l),
+(-995,413,l),
+(-964,561,l),
+(70,561,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,399,l),
+(-1057,399,l),
+(-1022,567,l),
+(34,567,l)
+);
+}
+);
+vertWidth = 0;
+width = 3;
+}
+);
+unicode = 61141;
+}

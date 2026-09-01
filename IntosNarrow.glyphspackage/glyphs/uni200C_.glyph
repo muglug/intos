@@ -1,0 +1,26 @@
+{
+glyphname = uni200C;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+vertWidth = 0;
+width = 0;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+vertWidth = 0;
+width = 0;
+}
+);
+unicode = (13,8204,8205,8206,8207,8234,8235,8236,8237,8238);
+}

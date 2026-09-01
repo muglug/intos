@@ -1,0 +1,70 @@
+{
+glyphname = fraction;
+layers = (
+{
+layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(426,1346,l),
+(554,1346,l),
+(-164,0,l),
+(-292,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 262;
+},
+{
+layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,1346,l),
+(553,1346,l),
+(-157,0,l),
+(-313,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 240;
+},
+{
+layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
+shapes = (
+{
+closed = 1;
+nodes = (
+(628,1346,l),
+(756,1346,l),
+(-255,0,l),
+(-381,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 313;
+},
+{
+layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,1345,l),
+(776,1345,l),
+(-236,0,l),
+(-392,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 323;
+}
+);
+unicode = 8260;
+}
