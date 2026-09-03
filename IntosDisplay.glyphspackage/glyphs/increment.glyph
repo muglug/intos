@@ -1,7 +1,5 @@
 {
-glyphname = Delta;
-kernLeft = Delta;
-kernRight = Delta;
+glyphname = increment;
 layers = (
 {
 layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
@@ -25,7 +23,6 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1167;
 },
 {
@@ -50,7 +47,6 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1242;
 },
 {
@@ -75,7 +71,6 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1167;
 },
 {
@@ -100,9 +95,8 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1242;
 }
 );
-unicode = 916;
+unicode = 8710;
 }

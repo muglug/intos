@@ -1,23 +1,7 @@
 {
-glyphname = Omega;
-kernLeft = Omega;
-kernRight = Omega;
+glyphname = Ohm;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (702,0);
-},
-{
-name = tonos;
-pos = (195,1346);
-},
-{
-name = top;
-pos = (702,1346);
-}
-);
 layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
 shapes = (
 {
@@ -67,24 +51,9 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1406;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (717,0);
-},
-{
-name = tonos;
-pos = (207,1346);
-},
-{
-name = top;
-pos = (718,1346);
-}
-);
 layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
 shapes = (
 {
@@ -134,24 +103,9 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1435;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (577,0);
-},
-{
-name = tonos;
-pos = (373,1346);
-},
-{
-name = top;
-pos = (864,1346);
-}
-);
 layerId = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
 shapes = (
 {
@@ -202,24 +156,9 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1406;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (588,0);
-},
-{
-name = tonos;
-pos = (377,1346);
-},
-{
-name = top;
-pos = (875,1346);
-}
-);
 layerId = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
 shapes = (
 {
@@ -270,9 +209,8 @@ nodes = (
 );
 }
 );
-vertWidth = 0;
 width = 1435;
 }
 );
-unicode = 937;
+unicode = 8486;
 }
