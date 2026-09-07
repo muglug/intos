@@ -1,0 +1,5 @@
+fontmake==3.12.1
+glyphsLib==6.14.0
+ufo2ft==3.9.0
+fonttools==4.64.0
+ttfautohint-py==0.6.1

@@ -21,6 +21,28 @@ Text set in Aptos keeps its line breaks and pagination when it is rendered with 
   overhang, Aptos Serif's metrics and kerning.
 - `fonts/` — the built TTFs (Intos, Intos Display, Intos Narrow and Intos Serif).
 
-Edit in Glyphs 4 and export into `fonts/`.
+Edit the sources in Glyphs 4, then rebuild without opening Glyphs:
+
+```sh
+./scripts/build-fonts.sh
+./scripts/build-preview.sh
+```
+
+The first font build requires Python 3.10+ and an internet connection to install
+the pinned fontmake toolchain into `build/venv`. Later builds work offline.
+No Glyphs installation is required. To build selected families or use another
+output folder:
+
+```sh
+./scripts/build-fonts.sh --family IntosDisplay --family IntosNarrow
+./scripts/build-fonts.sh --output-dir build/fonts
+```
+
+The build exports all active static instances, applies their export parameters,
+adds TrueType autohinting, and validates the staged fonts before replacing the
+outputs. Sources are never rewritten. Quadratic contours retain their overlaps;
+empty italic alternate layers use the matching upright master's outlines, matching Glyphs.
+The compiler and autohinter differ from Glyphs, so binary files and small-size
+rasterization may differ from native exports.
 
 Licensed under the SIL Open Font License 1.1 — see `LICENSE.txt`.
