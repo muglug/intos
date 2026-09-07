@@ -16,6 +16,27 @@ ROOT = Path(__file__).resolve().parent.parent
 FAMILIES = ('Intos', 'IntosDisplay', 'IntosNarrow', 'IntosSerif')
 
 
+def source_path(family):
+    candidates = [ROOT / f'{family}{suffix}' for suffix in ('.glyphspackage', '.glyphs')]
+    existing = [path for path in candidates if path.exists()]
+    if len(existing) != 1:
+        raise ValueError(f'{family}: expected exactly one .glyphspackage or .glyphs source')
+    return existing[0]
+
+
+def source_fingerprint(source):
+    if source.is_file():
+        return hashlib.sha256(source.read_bytes()).digest()
+    digest = hashlib.sha256()
+    for path in sorted(source.rglob('*')):
+        # Opening a tab in Glyphs can update UI state without changing the font.
+        if not path.is_file() or path.name in ('UIState.plist', '.DS_Store'):
+            continue
+        digest.update(path.relative_to(source).as_posix().encode('utf-8') + b'\0')
+        digest.update(hashlib.sha256(path.read_bytes()).digest())
+    return digest.digest()
+
+
 def prepare_source(font):
     """Match Glyphs' upright fallback and enclosing-mark advance behavior."""
     italic_axis = next(i for i, axis in enumerate(font.axes) if axis.axisTag == 'ital')
@@ -62,8 +83,8 @@ def main():
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'fonts')
     args = parser.parse_args()
     logging.basicConfig(level=logging.WARNING)
-    sources = [ROOT / f'{family}.glyphs' for family in dict.fromkeys(args.family or FAMILIES)]
-    hashes = {p: hashlib.sha256(p.read_bytes()).digest() for p in sources}
+    sources = [source_path(family) for family in dict.fromkeys(args.family or FAMILIES)]
+    hashes = {p: source_fingerprint(p) for p in sources}
     args.output_dir.mkdir(parents=True, exist_ok=True)
     # Stage on the same filesystem so each final replacement is atomic.
     with tempfile.TemporaryDirectory(prefix='.font-build-', dir=args.output_dir) as temp:
@@ -79,7 +100,7 @@ def main():
                 if len(weights) != 1 or next(iter(weights)) not in masters or next(iter(weights.values())) != 1:
                     raise ValueError(f'{source.name}: {instance.name} must select exactly one master')
             prepare_source(font)
-            prepared = staging / source.name
+            prepared = staging / f'{source.stem}.glyphs'
             font.save(str(prepared))
             # Instances apply export parameters, including Serif's Remove Glyphs.
             # Keep the imported quadratic contours; boolean overlap removal fails
@@ -97,7 +118,7 @@ def main():
                 count = validate(path, name)
                 outputs.append(path)
                 print(f'  {path.name}: {count} characters, validated', flush=True)
-        if any(hashlib.sha256(p.read_bytes()).digest() != digest for p, digest in hashes.items()):
+        if any(source_fingerprint(p) != digest for p, digest in hashes.items()):
             raise RuntimeError('A source changed during the build. Run again to export the latest edits.')
         for path in outputs:
             path.replace(args.output_dir / path.name)
