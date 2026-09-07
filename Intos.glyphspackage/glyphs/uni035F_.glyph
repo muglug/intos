@@ -5,7 +5,6 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (0,0);
 }
 );
 layerId = "7413E20A-A570-4685-8079-561F56E0A4D6";
@@ -27,7 +26,6 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (0,0);
 }
 );
 layerId = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";

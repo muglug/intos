@@ -1751,7 +1751,7 @@ n.numr,
 paragraph,
 paragraphreversed,
 section,
-"infinity",
+infinity,
 partialdiff,
 summation,
 product,
@@ -3883,26 +3883,20 @@ value = (
 id = "7413E20A-A570-4685-8079-561F56E0A4D6";
 metricValues = (
 {
-over = 0;
 pos = 1923;
 },
 {
-over = 0;
 pos = 1346;
 },
 {
-over = 0;
 pos = 974;
 },
 {
-over = 0;
 },
 {
-over = 0;
 pos = -577;
 },
 {
-over = 0;
 }
 );
 name = Regular;
@@ -4088,26 +4082,20 @@ iconName = Bold;
 id = "F29DFB50-005D-4D7A-925E-6A32BB3A81BF";
 metricValues = (
 {
-over = 0;
 pos = 1923;
 },
 {
-over = 0;
 pos = 1346;
 },
 {
-over = 0;
 pos = 976;
 },
 {
-over = 0;
 },
 {
-over = 0;
 pos = -577;
 },
 {
-over = 0;
 }
 );
 name = Bold;
@@ -4292,26 +4280,20 @@ value = (
 id = "0DBFF5E9-5C3F-41EA-BB85-B04631756A84";
 metricValues = (
 {
-over = 0;
 pos = 1923;
 },
 {
-over = 0;
 pos = 1346;
 },
 {
-over = 0;
 pos = 974;
 },
 {
-over = 0;
 },
 {
-over = 0;
 pos = -577;
 },
 {
-over = 0;
 pos = 12;
 }
 );
@@ -4497,26 +4479,20 @@ iconName = Bold;
 id = "5528CB0E-BD24-4C9A-B6B6-74A460D84A69";
 metricValues = (
 {
-over = 0;
 pos = 1923;
 },
 {
-over = 0;
 pos = 1346;
 },
 {
-over = 0;
 pos = 976;
 },
 {
-over = 0;
 },
 {
-over = 0;
 pos = -577;
 },
 {
-over = 0;
 pos = 12;
 }
 );
@@ -15593,8 +15569,6 @@ value = "https://github.com/muglug/intos";
 settings = {
 disablesNiceNames = 1;
 };
-stems = (
-);
 unitsPerEm = 2048;
 versionMajor = 1;
 versionMinor = 0;
