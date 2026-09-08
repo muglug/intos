@@ -117,6 +117,27 @@ nodes = (
 }
 );
 width = 741;
+},
+{
+anchors = (
+{
+name = _cross;
+pos = (323.833,701);
+}
+);
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(54.833,647.667,l),
+(886.5,1075.333,l),
+(840.167,856,l),
+(8.5,428.333,l)
+);
+}
+);
+width = 742;
 }
 );
 unicode = 61153;

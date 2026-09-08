@@ -270,6 +270,56 @@ nodes = (
 }
 );
 width = 835;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (494.833,0);
+},
+{
+name = cross;
+pos = (644.167,701);
+},
+{
+name = ogonek;
+pos = (619.5,0);
+},
+{
+name = right;
+pos = (637.833,0);
+},
+{
+name = tonos;
+pos = (658.5,1346);
+},
+{
+name = top;
+pos = (783.167,1346);
+}
+);
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(619.5,0,l),
+(371.5,0,l),
+(658.5,1346,l),
+(906.167,1346,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(307.5,1346,l),
+(532.5,1346,l),
+(366.5,1069,l),
+(218.167,1069,l)
+);
+}
+);
+width = 836;
 }
 );
 unicode = 8155;

@@ -24,6 +24,10 @@ width = 289;
 {
 layerId = "B9A25D74-1E61-5F33-9694-888CE534227E";
 width = 303;
+},
+{
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+width = 304;
 }
 );
 unicode = 8239;

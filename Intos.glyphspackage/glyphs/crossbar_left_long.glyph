@@ -56,6 +56,27 @@ width = 600;
 {
 layerId = "B9A25D74-1E61-5F33-9694-888CE534227E";
 width = 600;
+},
+{
+anchors = (
+{
+name = _cross;
+pos = (499.167,673);
+}
+);
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198.833,749,l),
+(1012.833,749,l),
+(981.167,597,l),
+(166.167,597,l)
+);
+}
+);
+width = 1060;
 }
 );
 unicode = 61143;

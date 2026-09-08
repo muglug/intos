@@ -80,6 +80,20 @@ nodes = (
 }
 );
 width = 922;
+},
+{
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(364.833,968,l),
+(789.5,673,l),
+(240.5,379,l)
+);
+}
+);
+width = 921;
 }
 );
 unicode = 57487;

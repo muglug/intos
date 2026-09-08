@@ -137,6 +137,31 @@ nodes = (
 }
 );
 width = 654;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (374.167,1010);
+},
+{
+name = top;
+pos = (461.5,1416);
+}
+);
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(491.5,1416,l),
+(724.5,1416,l),
+(483.167,1149,l),
+(308.833,1149,l)
+);
+}
+);
+width = 655;
 }
 );
 unicode = 61086;

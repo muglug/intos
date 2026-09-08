@@ -9,7 +9,7 @@ Based on [Inter](https://github.com/rsms/inter) and [Gelasio](https://github.com
 Text set in Aptos keeps its line breaks and pagination when it is rendered with Intos.
 
 - `Intos.glyphspackage` — **Intos** (sans), derived from [Inter](https://github.com/rsms/inter).
-  Regular, Bold, Italic, Bold Italic, and an upright Semibold review master, in final font coordinates, TrueType
+  Regular, Bold, Italic, Bold Italic, and Semibold / Semibold Italic review masters, in final font coordinates, TrueType
   outlines, with Aptos's kerning and the `ccmp`/`locl` features and mark anchors.
 - `IntosDisplay.glyphspackage` — **Intos Display**, the four Intos masters with the
   Aptos → Aptos Display change replayed on them programmatically
@@ -60,16 +60,35 @@ This carries across the lowercase height, proportions, and symbol placement.
 Aptos supplies advance widths, vertical metric tables, and kerning for shared
 characters; its ink bounds are not used to fit outlines. The glyphs listed in
 `design/semibold-custom-glyphs.json` use a two-thirds blend of the edited Intos
-Regular and Bold outlines, without any subsequent outline scaling. There is no
-Semibold Italic yet. Where a Regular construction cannot be mapped reliably,
+Regular and Bold outlines, without any subsequent outline scaling. Where a
+Regular construction cannot be mapped reliably,
 the generator reuses a related base-glyph map or interpolates the Intos drawings;
 `build/semibold/provenance.json` records the method and reconstruction error for
 each glyph. Regeneration preserves existing custom Semibold drawings.
 
-The ordinary font build exports `fonts/Intos-Semibold.ttf` from this editable
-master. `scripts/create-semibold.py` records the creation workflow and requires
-the original Inter and Aptos files; it refuses to overwrite an existing Semibold
-unless explicitly asked to regenerate the review master. The optional creation
+The **Semibold Italic** review master blends the Italic and Bold Italic masters
+at two thirds (`scripts/create-semibold-italic.py`), keeping the Italic's node
+structure: every Italic segment becomes one segment whose ends meet their
+counterparts on the Bold Italic (nearest points walked monotonically around the
+contour, so differing node structures do not matter) and whose handle is fitted
+to the blended curve; straight segments stay straight and implied on-curve
+points stay implied. Replaying Inter's semibold through a recovered deformation,
+as for the upright, scattered hundreds of nodes over the italics and extrapolated
+badly, so it is not used here. Blends that fail a plausibility check (points far
+from both masters, or a bounding box or area outside theirs) retry with the Bold
+Italic's structure, then the arc-length interpolation; the few remaining glyphs
+keep the Italic outline and are listed for review. Aptos SemiBold Italic supplies
+advances, vertical metrics and kerning. The i/j family then has its dots centred
+on Aptos SemiBold Italic's, like the other italics, and the g family takes the
+upright Semibold g sheared 9.5° with the upper storey sheared back 2° about its
+centre, its accents from the blend. `build/semibold-italic/provenance.json`
+records the method per glyph.
+
+The ordinary font build exports `fonts/Intos-Semibold.ttf` and
+`fonts/Intos-SemiboldItalic.ttf` from these editable masters. The creation
+scripts record the workflow and require the original Inter and Aptos files;
+they refuse to overwrite an existing master unless explicitly asked to
+regenerate the review master. The optional creation
 and comparison tools use `scripts/review-requirements.txt` (Python 3.12+).
 
 Licensed under the SIL Open Font License 1.1 — see `LICENSE.txt`.

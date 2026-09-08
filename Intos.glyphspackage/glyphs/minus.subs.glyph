@@ -87,6 +87,21 @@ nodes = (
 }
 );
 width = 849;
+},
+{
+layerId = "7E2F5C1A-9B3D-4F6E-8A1C-5D2B7E9F3C41";
+shapes = (
+{
+closed = 1;
+nodes = (
+(629,-11.667,l),
+(44,-11.667,l),
+(77,146,l),
+(662.333,146,l)
+);
+}
+);
+width = 849;
 }
 );
 unicode = 8331;
