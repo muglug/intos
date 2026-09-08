@@ -9,7 +9,7 @@ Based on [Inter](https://github.com/rsms/inter) and [Gelasio](https://github.com
 Text set in Aptos keeps its line breaks and pagination when it is rendered with Intos.
 
 - `Intos.glyphspackage` — **Intos** (sans), derived from [Inter](https://github.com/rsms/inter).
-  Four masters — Regular, Bold, Italic, Bold Italic — in final font coordinates, TrueType
+  Regular, Bold, Italic, Bold Italic, and an upright Semibold review master, in final font coordinates, TrueType
   outlines, with Aptos's kerning and the `ccmp`/`locl` features and mark anchors.
 - `IntosDisplay.glyphspackage` — **Intos Display**, the four Intos masters with the
   Aptos → Aptos Display change replayed on them programmatically
@@ -52,5 +52,24 @@ outputs. Sources are never rewritten. Quadratic contours retain their overlaps;
 empty italic alternate layers use the matching upright master's outlines, matching Glyphs.
 The compiler and autohinter differ from Glyphs, so binary files and small-size
 rasterization may differ from native exports.
+
+The upright **Semibold** is a weight-600 review master. It starts with Inter 4.1
+Semibold, with the Inter Regular → Intos Regular outline transformations
+reconstructed from corresponding contours and replayed on Inter Semibold.
+This carries across the lowercase height, proportions, and symbol placement.
+Aptos supplies advance widths, vertical metric tables, and kerning for shared
+characters; its ink bounds are not used to fit outlines. The glyphs listed in
+`design/semibold-custom-glyphs.json` use a two-thirds blend of the edited Intos
+Regular and Bold outlines, without any subsequent outline scaling. There is no
+Semibold Italic yet. Where a Regular construction cannot be mapped reliably,
+the generator reuses a related base-glyph map or interpolates the Intos drawings;
+`build/semibold/provenance.json` records the method and reconstruction error for
+each glyph. Regeneration preserves existing custom Semibold drawings.
+
+The ordinary font build exports `fonts/Intos-Semibold.ttf` from this editable
+master. `scripts/create-semibold.py` records the creation workflow and requires
+the original Inter and Aptos files; it refuses to overwrite an existing Semibold
+unless explicitly asked to regenerate the review master. The optional creation
+and comparison tools use `scripts/review-requirements.txt` (Python 3.12+).
 
 Licensed under the SIL Open Font License 1.1 — see `LICENSE.txt`.

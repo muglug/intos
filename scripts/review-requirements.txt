@@ -1,0 +1,4 @@
+-r font-requirements.txt
+numpy==2.5.3
+Pillow==12.3.0
+freetype-py==2.5.1

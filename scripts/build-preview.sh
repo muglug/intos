@@ -17,10 +17,11 @@ if ! command -v "$magick_bin" >/dev/null 2>&1; then
 fi
 
 text_regular="$font_dir/Intos-Regular.ttf"
+text_semibold="$font_dir/Intos-Semibold.ttf"
 display_regular="$font_dir/IntosDisplay-Regular.ttf"
 display_bold="$font_dir/IntosDisplay-Bold.ttf"
 
-for font_path in "$text_regular" "$display_regular" "$display_bold"; do
+for font_path in "$text_regular" "$text_semibold" "$display_regular" "$display_bold"; do
   if [[ ! -f "$font_path" ]]; then
     echo "Missing font: $font_path" >&2
     exit 1
@@ -86,6 +87,8 @@ render_label da 'DANSK (DANISH)'
 render_label de 'DEUTSCH (GERMAN)'
 render_label cs 'ČESKÝ (CZECH)'
 
+# At 106 pt, -3.6 px tracking approximates the Display cuts' tighter spacing.
+# Apply it only to the closing Semibold passage.
 "$magick_bin" \
   -size 2048x2478 xc:white \
   -fill none \
@@ -99,7 +102,9 @@ render_label cs 'ČESKÝ (CZECH)'
   -draw 'text 0,100 "ABCDEFGHIJKLMN" text 0,219 "OPQRSTUVWXYZ.," text 0,336 "abcdefghijklmnopq" text 0,451 "rstuvwxyz () & ?! @" text 0,573 "1234567890 ⌘/→"' \
   -font "$display_bold" \
   -draw 'text 1055,100 "ABCDEFGHIJKLMN" text 1055,219 "OPQRSTUVWXYZ.," text 1055,336 "abcdefghijklmnopq" text 1055,451 "rstuvwxyz () & ?! @" text 1055,573 "1234567890 ⌘/→"' \
+  -font "$text_semibold" \
   -pointsize 106 \
+  -kerning -3 \
   -draw 'text 707,1860 "The user interface in the" text 707,1964 "industrial design field of" text 707,2068 "human-computer interaction" text 707,2172 "is the space where" text 707,2276 "interactions between" text 707,2380 "humans and machines occur."' \
   "$preview_tmp_dir/base.png"
 
