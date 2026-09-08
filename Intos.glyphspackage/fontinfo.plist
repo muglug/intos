@@ -3900,6 +3900,7 @@ pos = -577;
 }
 );
 name = Regular;
+visible = 1;
 },
 {
 axesValues = (
@@ -4098,6 +4099,7 @@ pos = -577;
 }
 );
 name = Bold;
+visible = 1;
 },
 {
 axesValues = (

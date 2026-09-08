@@ -91,7 +91,6 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (0,0);
 }
 );
 layerId = "B9A25D74-1E61-5F33-9694-888CE534227E";
