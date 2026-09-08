@@ -13,6 +13,10 @@ tag = ital;
 );
 customParameters = (
 {
+name = "Use Extension Kerning";
+value = 1;
+},
+{
 name = hheaAscender;
 value = 1923;
 },

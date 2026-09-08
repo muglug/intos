@@ -1,5 +1,5 @@
 {
-.appVersion = "4004";
+.appVersion = "4107";
 .formatVersion = 3;
 axes = (
 {
@@ -12,6 +12,10 @@ tag = ital;
 }
 );
 customParameters = (
+{
+name = "Use Extension Kerning";
+value = 1;
+},
 {
 name = hheaAscender;
 value = 1923;
@@ -4694,7 +4698,6 @@ pos = -577;
 }
 );
 name = Semibold;
-visible = 1;
 }
 );
 instances = (
